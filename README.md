@@ -4,7 +4,7 @@
 
 ## Description
 
-This memory game was created using ReactJS.
+This memory game was created using the Create React App. 
 
 ## Table of Contents
 
@@ -70,7 +70,7 @@ npm start
 The player can also restart the game by clicking on the restart button.
 ![Navigation](https://user-images.githubusercontent.com/105747929/184004703-cdc7ec46-8a53-4d43-9efa-b1204ecc2402.png)
 
-- The Game Rules can also be viewed by clicking on the "Show Game Rules" button. Once done reading the rules, the rules can also be hidden by clicking on the
+- The Game Rules can also be viewed by clicking on the "Show Game Rules" button. Once done reading, the rules can also be hidden by clicking on the
 "Hide Game Rules" button.
 ![Game Rules](https://user-images.githubusercontent.com/105747929/184005399-e4030610-f6cb-48b4-9638-2d67cc0c587a.png)
 
