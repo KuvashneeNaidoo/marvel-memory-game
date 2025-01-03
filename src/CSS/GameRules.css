@@ -15,9 +15,31 @@
 .rulesheading {
   text-align: center;
   padding: 20px;
+  font-size: 1.25em;
+  color: #fff;
+  max-width: 90%; /* Limit width for better containment */
+  margin: 0 auto; /* Center the heading */
 }
 
 .rulescontent {
   text-align: left;
   padding: 20px;
+  font-size: 0.8em;
+  color: #fff;
+  max-width: 90%; /* Limit width for better containment */
+  margin: 0 auto; /* Center the content */
+}
+
+/* Ensure the content is not too wide on larger screens */
+@media (min-width: 768px) {
+  .rules {
+    max-width: 800px; /* Set a max-width to prevent it from becoming too wide */
+    margin: 0 auto; /* Center the content */
+  }
+}
+
+@media (max-width: 480px) {
+  .rulescontent {
+    font-size: 0.9em; /* Slightly smaller font on smaller screens */
+  }
 }

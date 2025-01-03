@@ -1,10 +1,6 @@
 /* CSS used to style the GameBoard Component */
-
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600;700;800;900&display=swap');
-
 body {
   font-family: Jost, sans-serif;
-  max-width: 1000px;
   margin: 0 auto;
   font-size: 1.5em;
   text-align: center;
@@ -14,7 +10,30 @@ body {
 
 .GameBoard {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr); /* Always 4 equal columns */
+  grid-template-rows: repeat(4, 1fr); /* Always 4 rows */
   grid-gap: 30px;
   padding-bottom: 50px;
+}
+
+/* Ensure no layout changes on smaller screens */
+@media (max-width: 1200px) {
+  .GameBoard {
+    grid-template-columns: repeat(4, 1fr); /* Always 4 columns */
+    grid-template-rows: repeat(4, 1fr); /* Always 4 rows */
+  }
+}
+
+@media (max-width: 768px) {
+  .GameBoard {
+    grid-template-columns: repeat(4, 1fr); /* Always 4 columns */
+    grid-template-rows: repeat(4, 1fr); /* Always 4 rows */
+  }
+}
+
+@media (max-width: 480px) {
+  .GameBoard {
+    grid-template-columns: repeat(4, 1fr); /* Always 4 columns */
+    grid-template-rows: repeat(4, 1fr); /* Always 4 rows */
+  }
 }

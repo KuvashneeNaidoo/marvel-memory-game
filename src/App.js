@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import GameBoard from './Components/GameBoard';
-import Navigation from './Components/Navigation';
-import CardDeck from './Components/CardDeck';
+import React, { useState, useEffect } from "react";
+import GameBoard from "./Components/GameBoard";
+import Navigation from "./Components/Navigation";
+import CardDeck from "./Components/CardDeck";
 
 /* Within our App component, we will begin by creating some states to store our cards and 
 their functions in for this memory game. The states of the inital values will be set to an empty array
@@ -30,8 +30,8 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    const resizeListener = window.addEventListener('resize', resizeGameBoard);
-    return () => window.removeEventListener('resize', resizeListener);
+    const resizeListener = window.addEventListener("resize", resizeGameBoard);
+    return () => window.removeEventListener("resize", resizeListener);
   });
 
   useEffect(() => {}, [score]);
@@ -87,7 +87,7 @@ const App = () => {
   const checkScore = (score) => {
     if (score > 9) {
       setVictories(victories + 1);
-      alert('Avengers Assemble! We got ourselves a winner! Congratulations!');
+      alert("Avengers Assemble! We got ourselves a winner! Congratulations!");
       setTimeout(newGame, 3000);
     }
   };
@@ -98,7 +98,7 @@ const App = () => {
   const checkGuesses = (wrongGuesses) => {
     if (wrongGuesses > 14) {
       setDefeats(defeats + 1);
-      alert('Oops! You Lost! Is That The Best You Can Do? Try Again!');
+      alert("Oops! You Lost! Is That The Best You Can Do? Try Again!");
       setTimeout(newGame, 2000);
     }
   };

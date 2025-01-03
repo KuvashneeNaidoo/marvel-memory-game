@@ -4,7 +4,7 @@
 
 ## Description
 
-This memory game was created using ReactJS.
+This memory game was created using the Create React App.
 
 ## Table of Contents
 
@@ -66,21 +66,16 @@ npm start
 
 ## Usage
 
-- On the Home page, you can click on the shop button which will redirect you to the catalogue page to view all products.
-  ![Home](https://user-images.githubusercontent.com/105747929/179355703-5ea6624b-bc54-4013-b553-5975b10191fc.png)
+- The Navigation appears above the Gameboard. The player is able to view their victories, defeats, scores as well as the number of wrong guesses made.
+  The player can also restart the game by clicking on the restart button.
+  ![Navigation](https://user-images.githubusercontent.com/105747929/184004703-cdc7ec46-8a53-4d43-9efa-b1204ecc2402.png)
 
-- Once on the Catalogue page, you can add items to the shopping cart or click on the "View More" button to access the description of the product.
-  ![Catalogue(view or add)](https://user-images.githubusercontent.com/105747929/179355775-89654087-5f1b-474d-99a8-e605096a316f.png)
+- The Game Rules can also be viewed by clicking on the "Show Game Rules" button. Once done reading, the rules can also be hidden by clicking on the
+  "Hide Game Rules" button.
+  ![Game Rules](https://user-images.githubusercontent.com/105747929/184005399-e4030610-f6cb-48b4-9638-2d67cc0c587a.png)
 
-- On the product description page, you are also able to add the item to your shopping cart. An animated drop-down menu can be found on this page.  
-  ![Product description (add to cart)](https://user-images.githubusercontent.com/105747929/179355880-0f9eb6e5-3df3-4c71-8032-7b1db2dec180.png)
-
-- On the right end corner, click on the shopping cart icon to access this shopping cart table. This table will display all the items you have added to your cart. You also have the option of increasing the quantity of the specific item you have chosen as well as removing items from your cart.
-  ![Shopping cart table](https://user-images.githubusercontent.com/105747929/179355908-c9fb30f9-3f64-4d3d-afb6-fc9e58bcc43a.png)
-
-- The summary of your order will calculate and display the VAT, delivery costs, discounts and overall total for the items in your cart.
-  You can update this form if any changes are made and lastly confirm your order to receive the reference number for your purchase.
-  ![Order summary](https://user-images.githubusercontent.com/105747929/179355952-d5c6a5a1-f472-43c5-8c6b-d42cddef6cf1.png)
+- Here is a sneak peak of the memory game showcasing the front (Avenger Characters) and back (purple) image of the cards.
+  ![Front and Back of Cards](https://user-images.githubusercontent.com/105747929/184005611-2f11c83b-8edc-40a2-aa3a-ce31ee424820.png)
 
 ## Credits
 

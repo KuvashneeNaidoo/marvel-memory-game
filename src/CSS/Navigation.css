@@ -1,5 +1,4 @@
 /* CSS used to style the Navigation Component */
-
 .heading {
   color: rgb(233, 210, 79);
   text-shadow: 3px 3px rgb(171, 109, 184);
@@ -22,8 +21,6 @@
   display: inline-block;
   position: relative;
   text-align: center;
-  padding: 2rem;
-  margin: auto;
   padding-top: 10px;
 }
 
