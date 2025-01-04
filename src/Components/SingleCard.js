@@ -28,14 +28,15 @@ player flips over or matches a card pair, if not then the back image of the card
       onClick={() => (disabled ? null : handleClick(id))}
     >
       <div className="flipper">
-        <img
+            <img
           style={{
             height,
             width,
           }}
-          className={flipped ? 'front' : 'back'}
-          src={flipped || solved ? `/img/${item}.jpg` : '/img/cardback.jpg'}
+          className={flipped ? "front" : "back"}
+          src={flipped || solved ? `/img/${item}.jpg` : "/img/cardback.jpg"}
           alt={item}
+          loading="lazy" // Lazy load the image
         />
       </div>
     </div>
